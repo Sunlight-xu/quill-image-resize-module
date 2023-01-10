@@ -5,7 +5,6 @@ import Iconfull from '../icons/full.svg';
 import { BaseModule } from './BaseModule';
 
 const Parchment = window.Quill.imports.parchment;
-console.log('Parchment', Parchment);
 const FloatStyle = new Parchment.Attributor.Style('float', 'float');
 const MarginStyle = new Parchment.Attributor.Style('margin', 'margin');
 const DisplayStyle = new Parchment.Attributor.Style('display', 'display');
